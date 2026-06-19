@@ -1,0 +1,49 @@
+# Screen dimensions
+SCREEN_WIDTH = 800
+SCREEN_HEIGHT = 600
+
+# Colors (RGB)
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 255)
+YELLOW = (255, 255, 0)
+ORANGE = (255, 165, 0)
+PURPLE = (128, 0, 128)
+CYAN = (0, 255, 255)
+GRAY = (128, 128, 128)
+
+# Paddle settings
+PADDLE_WIDTH = 100
+PADDLE_HEIGHT = 15
+PADDLE_SPEED = 8
+PADDLE_COLOR = WHITE
+
+# Ball settings
+BALL_RADIUS = 8
+BALL_SPEED_X = 5
+BALL_SPEED_Y = -5
+BALL_COLOR = WHITE
+
+# Brick settings
+BRICK_ROWS = 6
+BRICK_COLS = 10
+BRICK_WIDTH = 70
+BRICK_HEIGHT = 25
+BRICK_PADDING = 5
+BRICK_TOP_OFFSET = 50
+
+# Brick colors per row (from top to bottom)
+BRICK_COLORS = [
+    RED,
+    ORANGE,
+    YELLOW,
+    GREEN,
+    BLUE,
+    PURPLE
+]
+
+# Game settings
+FPS = 60
+LIVES = 3
